@@ -33,3 +33,11 @@ angular
         redirectTo: '/'
       });
   });
+
+$('a.mdl-layout__tab').mouseenter(function() {
+  $(this).addClass('is-active');
+});
+
+$('a.mdl-layout__tab').mouseleave(function() {
+  $(this).removeClass('is-active');
+});
