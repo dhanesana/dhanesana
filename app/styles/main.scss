@@ -550,16 +550,48 @@ a:hover i {
 .css-menu {
 }
 
+.skill {
+  margin-top: .75em;
+  margin-left: 1em;
+  font-size: 1em;
+}
+
+.exp-div {
+  // max-height: 29em;
+}
+
+.job-line {
+  font-size: 1em;
+  margin-left: .5em;
+  margin-bottom: 5px;
+}
+
 .job {
   font-weight: 300;
 }
 
 .job-desc {
   padding-top: 0px;
+  padding-bottom: 5px !important;
+}
+
+.mdl-card__supporting-text {
+  padding-top: 0px;
+}
+
+.job-date {
+  margin-left: 1.2em;
+  font-size: .8em;
 }
 
 .employer {
   font-weight: 500;
+}
+
+.school-line {
+  font-size: 1em;
+  margin-left: .5em;
+  margin-bottom: 5px;
 }
 
 .school-city {
@@ -567,12 +599,24 @@ a:hover i {
   font-weight: 300;
 }
 
+.proj-name-div {
+  padding-top: 1em;
+}
+
+.proj-line {
+  color: black;
+  font-size: 1em;
+  margin-top: 1em;
+  margin-left: .5em;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
 .resume-icons:hover {
   color: #00b0ff;
 }
 
 .mdl-mini-footer {
-  margin-top: 2em;
   height: 7em;
   padding: 3em;
   align-items: center;
@@ -584,4 +628,34 @@ a:hover i {
 .angular-logo {
   height: 2em;
   width: 2em;
+}
+
+#wrapper {
+  text-align: center;
+  display: table;
+  margin: 2em auto;
+}
+
+#animated-fab-button {
+  background-color: #00b0ff;
+  color: white;
+  transition: .2s ease all;
+  -webkit-transition: .2s ease all;
+}
+
+#animated-fab-button:hover {
+  background-color: white;
+  color: #00b0ff;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  box-shadow: -3px -3px 10px rgba(0, 0, 0, .25);
+}
+
+.download-icon:hover {
+  color: #00b0ff;
+}
+
+#download-text-div {
+  margin: 1em auto;
+  text-align: center;
 }
