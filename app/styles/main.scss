@@ -211,7 +211,8 @@ html, body {
 }
 
 .content {
-  max-width: 100%;
+  margin: .75em auto;
+  max-width: 98%;
 }
 
 .charts {
@@ -509,6 +510,8 @@ a:hover i {
   }
 }
 
+////////////////// RESUME //////////////////////
+
 .jumbotron {
   background-color: #E0E0E0;
 }
@@ -518,6 +521,67 @@ a:hover i {
 }
 
 .main-area {
-  // background-image: url("http://www.matchalabs.com/wp-content/uploads/2013/07/slide3-background.png");
+  // background-image: url("");
   background-color: #fafafa;
+}
+
+.about {
+  margin-top: 1em;
+  background-color: white;
+  width: 94%;
+}
+
+.skills-card.mdl-card {
+  width: 100%;
+  height: 100%;
+}
+
+.skills-card > .mdl-card__title {
+  height: 120px;
+  color: #fff;
+  background:
+    url('https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Ruby_on_Rails.svg/791px-Ruby_on_Rails.svg.png') bottom right 15% no-repeat #46B6AC;
+}
+
+.css-button {
+  // float: right;
+}
+
+.css-menu {
+}
+
+.job {
+  font-weight: 300;
+}
+
+.job-desc {
+  padding-top: 0px;
+}
+
+.employer {
+  font-weight: 500;
+}
+
+.school-city {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.resume-icons:hover {
+  color: #00b0ff;
+}
+
+.mdl-mini-footer {
+  margin-top: 2em;
+  height: 7em;
+  padding: 3em;
+  align-items: center;
+  background-color: white;
+  border-top: solid #E0E0E0;
+  box-sizing: border-box;
+}
+
+.angular-logo {
+  height: 2em;
+  width: 2em;
 }
