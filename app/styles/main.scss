@@ -543,11 +543,8 @@ a:hover i {
     url('https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Ruby_on_Rails.svg/791px-Ruby_on_Rails.svg.png') bottom right 15% no-repeat #46B6AC;
 }
 
-.css-button {
-  // float: right;
-}
-
-.css-menu {
+.mdl-card__title {
+  background-color: #E0E0E0;
 }
 
 .skill {
@@ -556,8 +553,12 @@ a:hover i {
   font-size: 1em;
 }
 
-.exp-div {
-  // max-height: 29em;
+.skills-div:hover i {
+  color: #00b0ff;
+}
+
+.exp-div:hover i {
+  color: #00b0ff;
 }
 
 .job-line {
@@ -588,6 +589,10 @@ a:hover i {
   font-weight: 500;
 }
 
+.edu-div:hover i {
+  color: #00b0ff;
+}
+
 .school-line {
   font-size: 1em;
   margin-left: .5em;
@@ -599,8 +604,17 @@ a:hover i {
   font-weight: 300;
 }
 
+.proj-div:hover i {
+  color: #00b0ff;
+}
+
 .proj-name-div {
   padding-top: 1em;
+}
+
+.proj-url {
+  font-style: italic;
+  font-weight: 300;
 }
 
 .proj-line {
@@ -610,6 +624,10 @@ a:hover i {
   margin-left: .5em;
   margin-bottom: 5px;
   text-decoration: none;
+}
+
+.proj-line:hover .proj-url {
+  color: #00b0ff;
 }
 
 .resume-icons:hover {
