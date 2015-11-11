@@ -553,11 +553,11 @@ a:hover i {
   font-size: 1em;
 }
 
-.skills-div:hover i {
+.skills-div:hover .resume-icons {
   color: #00b0ff;
 }
 
-.exp-div:hover i {
+.exp-div:hover .resume-icons {
   color: #00b0ff;
 }
 
@@ -589,7 +589,7 @@ a:hover i {
   font-weight: 500;
 }
 
-.edu-div:hover i {
+.edu-div:hover .resume-icons {
   color: #00b0ff;
 }
 
@@ -604,7 +604,7 @@ a:hover i {
   font-weight: 300;
 }
 
-.proj-div:hover i {
+.proj-div:hover .resume-icons {
   color: #00b0ff;
 }
 
@@ -676,4 +676,19 @@ a:hover i {
 #download-text-div {
   margin: 1em auto;
   text-align: center;
+}
+
+#resp-css-menu {
+  float: right;
+  color: #424242;
+}
+
+#db-menu {
+  float: right;
+  color: #424242;
+}
+
+.mdl-menu__item {
+  display: flex;
+  align-items: center;
 }
