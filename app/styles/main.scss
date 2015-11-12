@@ -468,10 +468,26 @@ a:hover i {
   margin-bottom: 1.5em;
 }
 
+.skills-div-drawer {
+  width: 99.7%;
+  // overflow-y: auto;
+}
+
+// Small Screen
 @media (max-width: 1024px) {
   .mdl-layout__header .mdl-layout__drawer-button {
     display: block;
     color: #424242;
+    // color: blue;
+  }
+  .skills-div-tab {
+    display: block;
+  }
+  .skills-div-drawer {
+    display: none;
+  }
+  .exp-div {
+    display: none;
   }
   .mdl-layout__header .mdl-layout__drawer-button i {
     font-size: 1em;
@@ -501,12 +517,22 @@ a:hover i {
   display: none;
 }
 
-@media (min-width: 1024px) {
+// Big Screen
+@media (min-width: 1025px) {
   #contact-nav {
     display: none;
   }
   #other-nav {
     display: block;
+  }
+  .exp-div {
+    display: block;
+  }
+  .exp-div-tab {
+    display: none;
+  }
+  .skills-div-tab {
+    display: none;
   }
 }
 
@@ -683,7 +709,17 @@ a:hover i {
   color: #424242;
 }
 
+#resp-css-menu-tab {
+  float: right;
+  color: #424242;
+}
+
 #db-menu {
+  float: right;
+  color: #424242;
+}
+
+#db-menu-tab {
   float: right;
   color: #424242;
 }
@@ -691,4 +727,20 @@ a:hover i {
 .mdl-menu__item {
   display: flex;
   align-items: center;
+}
+
+.filler-div {
+  background-color: #E0E0E0;
+}
+
+.indv-skill-div {
+  background-color: white;
+}
+
+.indv-skill-div:hover {
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, .25);
+}
+
+.skills-div-drawer:hover .resume-icons {
+  color: #00b0ff;
 }

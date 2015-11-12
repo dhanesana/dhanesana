@@ -50,7 +50,7 @@
           </nav>
         <!-- Bottom row, not visible on scroll -->
         </header>
-      <div class="mdl-layout__drawer">
+      <div class="filler-div mdl-layout__drawer">
         <header class="drawer-header">
           <div class="avatar-div">
             <img class="avatar mdl-shadow--6dp" src="http://i.imgur.com/CKs0OUp.png">
@@ -92,26 +92,64 @@
             </div>
           </a>
         </nav>
-        <nav id='other-nav' class="navigation mdl-navigation">
-          <a class="mdl-navigation__link" href="https://github.com/dhanesana" target="_blank">
-            <div class="link-div">
-              <i class="material-icons drawer-icons" role="presentation">person</i>
-              <span class="drawer-span">Chicken</span>
-            </div>
-          </a>
-          <a class="mdl-navigation__link" href="https://www.linkedin.com/in/dhanesana" target="_blank">
-            <div class="link-div">
-              <i class="material-icons drawer-icons" role="presentation">person</i>
-              <span class="drawer-span">Beef</span>
-            </div>
-          </a>
-          <a class="mdl-navigation__link" href="mailto:info@davidhanesana.com">
-            <div class="link-div">
-              <i class="material-icons drawer-icons" role="presentation">person</i>
-              <span class="drawer-span">Tomato</span>
-            </div>
-          </a>
-        </nav>
+        <!-- Skills Nav -->
+        <div class="skills-div-drawer">
+          <div class="mdl-card__title">
+            <i class="material-icons resume-icons">build</i><h2 class="mdl-card__title-text">Skills</h2>
+          </div>
+          <div class="indv-skill-div mdl-card__actions mdl-card--border">
+            <p class="skill mdl-js-ripple-effect">
+              Ruby on Rails
+            </p>
+          </div>
+          <div class="indv-skill-div mdl-card__actions mdl-card--border">
+            <p class="skill mdl-js-ripple-effect">
+              AngularJS
+            </p>
+          </div>
+          <div class="indv-skill-div mdl-card__actions mdl-card--border">
+            <p class="skill mdl-js-ripple-effect">
+              JavaScript & jQuery
+            </p>
+          </div>
+          <div class="indv-skill-div mdl-card__actions mdl-card--border">
+            <p class="skill mdl-js-ripple-effect">
+              Responsive CSS
+              <button id="resp-css-menu" class="mdl-button mdl-js-button mdl-button--icon">
+                <i class="material-icons">more_vert</i>
+              </button>
+              <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="resp-css-menu">
+                <li class="mdl-menu__item">Google MDL</li>
+                <li class="mdl-menu__item">SASS</li>
+                <li class="mdl-menu__item">Zurb Foundation</li>
+                <li class="mdl-menu__item">Bootstrap</li>
+              </ul>
+            </p>
+          </div>
+          <div class="indv-skill-div mdl-card__actions mdl-card--border">
+            <p class="skill mdl-js-ripple-effect">
+              Sinatra
+            </p>
+          </div>
+          <div class="indv-skill-div mdl-card__actions mdl-card--border">
+            <p class="skill mdl-js-ripple-effect">
+              Relational Database
+              <button id="db-menu" class="mdl-button mdl-js-button mdl-button--icon">
+                <i class="material-icons">more_vert</i>
+              </button>
+              <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="db-menu">
+                <li class="mdl-menu__item">SQLite</li>
+                <li class="mdl-menu__item">PostgreSQL</li>
+              </ul>
+            </p>
+          </div>
+          <div class="filler-div mdl-card__actions mdl-card--border">
+            <p class="skill mdl-js-ripple-effect">
+
+            </p>
+          </div>
+        </div>
+        <div></div>
       </div>
       <main class="mdl-layout__content main-area">
         <!-- <div class="mdl-grid content"> -->
