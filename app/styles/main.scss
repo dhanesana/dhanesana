@@ -469,7 +469,9 @@ a:hover i {
 }
 
 .skills-div-drawer {
-  // width: 99.7%;
+  width: 99.7%;
+  border-bottom: .5px solid white;
+  // border-right: 2px solid white;
   // overflow-y: auto;
 }
 
@@ -734,11 +736,15 @@ a:hover i {
 }
 
 .indv-skill-div {
-  background-color: white;
+  // background-color: white;
+  background-color: #E0E0E0;
+  border-top: .5px solid white !important;
+  border-bottom: .5px solid white;
 }
 
 .indv-skill-div:hover {
-  box-shadow: -1px -1px 10px rgba(0, 0, 0, .25);
+  background-color: #F5F5F5;
+  box-shadow: -.5px -.5px 10px rgba(0, 0, 0, .25);
 }
 
 .skills-div-drawer:hover .resume-icons {
@@ -766,4 +772,10 @@ a:hover i {
 #source-code-url {
   text-decoration: none;
   text-align: center;
+}
+
+.skill-title {
+  background-color: white;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
