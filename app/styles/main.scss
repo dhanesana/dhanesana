@@ -469,7 +469,7 @@ a:hover i {
 }
 
 .skills-div-drawer {
-  width: 99.7%;
+  // width: 99.7%;
   // overflow-y: auto;
 }
 
@@ -743,4 +743,27 @@ a:hover i {
 
 .skills-div-drawer:hover .resume-icons {
   color: #00b0ff;
+}
+
+.more-info {
+  // height: 7.5em;
+  // padding: 3em;
+  // align-items: center;
+  // background-color: white;
+  // border-top: solid #E0E0E0;
+  // box-sizing: border-box;
+}
+
+#help {
+  color: #424242 !important;
+}
+
+#help:hover {
+  cursor: pointer;
+  color: #00b0ff !important;
+}
+
+#source-code-url {
+  text-decoration: none;
+  text-align: center;
 }
