@@ -480,7 +480,24 @@ a:hover i {
   .mdl-layout__header .mdl-layout__drawer-button {
     display: block;
     color: #424242;
-    // color: blue;
+    -webkit-animation-name: color-animation;
+    -webkit-animation-duration: 3s; /* Chrome, Safari, Opera */
+    -webkit-animation-timing-function: ease;
+    animation-name: color-animation;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+  }
+  @-webkit-keyframes color-animation {
+    0% {color: #00b0ff;}
+    25% {color: #424242;}
+    50% {color: #00b0ff;}
+    100% {color: #424242;}
+  }
+  @keyframes color-animation {
+    0% {color: #00b0ff;}
+    25% {color: #424242;}
+    50% {color: #00b0ff;}
+    100% {color: #424242;}
   }
   .skills-div-tab {
     display: block;
