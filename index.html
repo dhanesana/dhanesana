@@ -1,13 +1,211 @@
-<!doctype html> <html> <head> <meta charset="utf-8"> <title>David P. Hanesana</title> <meta name="description" content="My name is David P. Hanesana. I love coding, köttbullar pasta, and carne asada fries."> <meta name="viewport" content="width=device-width"> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.e70a143c.css"> <link rel="stylesheet" href="styles/main.3e1684ba.css"> <!-- MDL Components and Script --> <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> </head> <body ng-app="dhanesanaApp"> <!--[if lte IE 8]>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>David P. Hanesana</title>
+    <meta name="description" content="My name is David P. Hanesana. I love coding, köttbullar pasta, and carne asada fries." />
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/material-design-lite/material.min.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- MDL Components and Script -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body ng-app="dhanesanaApp">
+    <!--[if lte IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--> <!-- Add your site or application content here --> <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header"> <header class="mdl-layout__header"> <!-- Top row, always visible --> <div class="mdl-layout__header-row"> <div class="mdl-layout-spacer"></div> <div id="topbar-name-div"> <span id="topbar-name">David P. Hanesana</span> <span id="topbar-job">Full-Stack Web Developer</span> </div> </div> <nav class="mdl-navigation"> <a href="mailto:info@davidhanesana.com" class="mdl-layout__tab"> <i class="material-icons">email</i>email </a> <a href="https://github.com/dhanesana" class="mdl-layout__tab" target="_blank"> <i class="material-icons">laptop_mac</i>github </a> <a href="https://www.linkedin.com/in/dhanesana" class="mdl-layout__tab" target="_blank"> <i class="material-icons">person</i>linkedin </a> <p class="mdl-layout__tab"> <i class="material-icons">place</i>San Diego, CA </p> </nav> <!-- Bottom row, not visible on scroll --> </header> <div class="filler-div mdl-layout__drawer"> <header class="drawer-header"> <div class="avatar-div"> <img class="avatar mdl-shadow--6dp" src="https://i.imgur.com/CKs0OUp.png"> </div> <div class="avatar-dropdown"> <span id="my-name">David P. Hanesana</span> <div class="mdl-layout-spacer"></div> <button id="accbtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"> <i class="material-icons name-icon" role="presentation">local_dining</i> <span class="visuallyhidden">Accounts</span> </button> <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="accbtn"> <li class="mdl-menu__item">Köttbullar Pasta</li> <li class="mdl-menu__item">Carne Asada Fries</li> <li class="mdl-menu__item">Xiao Long Bao</li> <li class="mdl-menu__item">Jjajangmyeon</li> <li class="mdl-menu__item">Pizza Rolls</li> </ul> </div> <div id="drawer-job-div"> <span id="drawer-job">Full-Stack Web Developer</span> </div> </header> <nav id="contact-nav" class="navigation mdl-navigation"> <a class="mdl-navigation__link" href="https://github.com/dhanesana" target="_blank"> <div class="link-div"> <i class="material-icons drawer-icons" role="presentation">laptop_mac</i> <span class="drawer-span">GitHub</span> </div> </a> <a class="mdl-navigation__link" href="https://www.linkedin.com/in/dhanesana" target="_blank"> <div class="link-div"> <i class="material-icons drawer-icons" role="presentation">person</i> <span class="drawer-span">LinkedIn</span> </div> </a> <a class="mdl-navigation__link" href="mailto:info@davidhanesana.com"> <div class="link-div"> <i class="material-icons drawer-icons" role="presentation">email</i> <span class="drawer-span">Email</span> </div> </a> <a class="mdl-navigation__link"> <div class="link-div"> <i class="material-icons drawer-icons" role="presentation">place</i> <span class="drawer-span">San Diego, CA</span> </div> </a> </nav> <!-- Skills Nav --> <div class="skills-div-drawer"> <div class="skill-title mdl-card__title"> <i class="material-icons resume-icons">build</i><h2 class="mdl-card__title-text">Skills</h2> </div> <div class="indv-skill-div mdl-card__actions mdl-card--border"> <p class="skill mdl-js-ripple-effect"> Ruby on Rails </p> </div> <div class="indv-skill-div mdl-card__actions mdl-card--border"> <p class="skill mdl-js-ripple-effect"> AngularJS </p> </div> <div class="indv-skill-div mdl-card__actions mdl-card--border"> <p class="skill mdl-js-ripple-effect"> JavaScript & jQuery </p> </div> <div class="indv-skill-div mdl-card__actions mdl-card--border"> <p class="skill mdl-js-ripple-effect"> Responsive CSS <button id="resp-css-menu" class="mdl-button mdl-js-button mdl-button--icon"> <i class="material-icons">more_vert</i> </button> <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="resp-css-menu"> <li class="mdl-menu__item">Google MDL</li> <li class="mdl-menu__item">SASS</li> <li class="mdl-menu__item">Zurb Foundation</li> <li class="mdl-menu__item">Bootstrap</li> </ul> </p> </div> <div class="indv-skill-div mdl-card__actions mdl-card--border"> <p class="skill mdl-js-ripple-effect"> Sinatra </p> </div> <div class="indv-skill-div mdl-card__actions mdl-card--border"> <p class="skill mdl-js-ripple-effect"> Relational Database <button id="db-menu" class="mdl-button mdl-js-button mdl-button--icon"> <i class="material-icons">more_vert</i> </button> <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="db-menu"> <li class="mdl-menu__item">SQLite</li> <li class="mdl-menu__item">PostgreSQL</li> </ul> </p> </div> <!--           <div class="filler-div mdl-card__actions mdl-card--border">
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <!-- Top row, always visible -->
+        <div class="mdl-layout__header-row">
+          <div class="mdl-layout-spacer"></div>
+          <div id="topbar-name-div">
+            <span id="topbar-name">David P. Hanesana</span>
+            <span id='topbar-job'>Full-Stack Web Developer</span>
+          </div>
+        </div>
+          <nav class="mdl-navigation">
+            <a href="mailto:info@davidhanesana.com" class="mdl-layout__tab">
+              <i class="material-icons">email</i>email
+            </a>
+            <a href="https://github.com/dhanesana" class="mdl-layout__tab" target="_blank">
+              <i class="material-icons">laptop_mac</i>github
+            </a>
+            <a href="https://www.linkedin.com/in/dhanesana" class="mdl-layout__tab" target="_blank">
+              <i class="material-icons">person</i>linkedin
+            </a>
+            <p class="mdl-layout__tab">
+              <i class="material-icons">place</i>San Diego, CA
+            </p>
+          </nav>
+        <!-- Bottom row, not visible on scroll -->
+        </header>
+      <div class="filler-div mdl-layout__drawer">
+        <header class="drawer-header">
+          <div class="avatar-div">
+            <img class="avatar mdl-shadow--6dp" src="https://i.imgur.com/CKs0OUp.png">
+          </div>
+          <div class="avatar-dropdown">
+            <span id='my-name'>David P. Hanesana</span>
+            <div class="mdl-layout-spacer"></div>
+            <button id="accbtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+              <i class="material-icons name-icon" role="presentation">local_dining</i>
+              <span class="visuallyhidden">Accounts</span>
+            </button>
+            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="accbtn">
+              <li class="mdl-menu__item">Köttbullar Pasta</li>
+              <li class="mdl-menu__item">Carne Asada Fries</li>
+              <li class="mdl-menu__item">Xiao Long Bao</li>
+              <li class="mdl-menu__item">Jjajangmyeon</li>
+              <li class="mdl-menu__item">Pizza Rolls</li>
+            </ul>
+          </div>
+          <div id="drawer-job-div">
+            <span id="drawer-job">Full-Stack Web Developer</span>
+          </div>
+        </header>
+        <nav id='contact-nav' class="navigation mdl-navigation">
+          <a class="mdl-navigation__link" href="https://github.com/dhanesana" target="_blank">
+            <div class="link-div">
+              <i class="material-icons drawer-icons" role="presentation">laptop_mac</i>
+              <span class="drawer-span">GitHub</span>
+            </div>
+          </a>
+          <a class="mdl-navigation__link" href="https://www.linkedin.com/in/dhanesana" target="_blank">
+            <div class="link-div">
+              <i class="material-icons drawer-icons" role="presentation">person</i>
+              <span class="drawer-span">LinkedIn</span>
+            </div>
+          </a>
+          <a class="mdl-navigation__link" href="mailto:info@davidhanesana.com">
+            <div class="link-div">
+              <i class="material-icons drawer-icons" role="presentation">email</i>
+              <span class="drawer-span">Email</span>
+            </div>
+          </a>
+          <a class="mdl-navigation__link">
+            <div class="link-div">
+              <i class="material-icons drawer-icons" role="presentation">place</i>
+              <span class="drawer-span">San Diego, CA</span>
+            </div>
+          </a>
+        </nav>
+        <!-- Skills Nav -->
+        <div class="skills-div-drawer">
+          <div class="skill-title mdl-card__title">
+            <i class="material-icons resume-icons">build</i><h2 class="mdl-card__title-text">Skills</h2>
+          </div>
+          <div class="indv-skill-div mdl-card__actions mdl-card--border">
+            <p class="skill mdl-js-ripple-effect">
+              Ruby on Rails
+            </p>
+          </div>
+          <div class="indv-skill-div mdl-card__actions mdl-card--border">
+            <p class="skill mdl-js-ripple-effect">
+              AngularJS
+            </p>
+          </div>
+          <div class="indv-skill-div mdl-card__actions mdl-card--border">
+            <p class="skill mdl-js-ripple-effect">
+              JavaScript & jQuery
+            </p>
+          </div>
+          <div class="indv-skill-div mdl-card__actions mdl-card--border">
+            <p class="skill mdl-js-ripple-effect">
+              Responsive CSS
+              <button id="resp-css-menu" class="mdl-button mdl-js-button mdl-button--icon">
+                <i class="material-icons">more_vert</i>
+              </button>
+              <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="resp-css-menu">
+                <li class="mdl-menu__item">Google MDL</li>
+                <li class="mdl-menu__item">SASS</li>
+                <li class="mdl-menu__item">Zurb Foundation</li>
+                <li class="mdl-menu__item">Bootstrap</li>
+              </ul>
+            </p>
+          </div>
+          <div class="indv-skill-div mdl-card__actions mdl-card--border">
+            <p class="skill mdl-js-ripple-effect">
+              Sinatra
+            </p>
+          </div>
+          <div class="indv-skill-div mdl-card__actions mdl-card--border">
+            <p class="skill mdl-js-ripple-effect">
+              Relational Database
+              <button id="db-menu" class="mdl-button mdl-js-button mdl-button--icon">
+                <i class="material-icons">more_vert</i>
+              </button>
+              <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="db-menu">
+                <li class="mdl-menu__item">SQLite</li>
+                <li class="mdl-menu__item">PostgreSQL</li>
+              </ul>
+            </p>
+          </div>
+<!--           <div class="filler-div mdl-card__actions mdl-card--border">
             <p class="skill mdl-js-ripple-effect">
 
             </p>
-          </div> --> </div> <div class="mdl-layout-spacer"></div> <a class="more-info mdl-navigation__link" target="_blank"> <div class="link-div"> <i id="help" class="material-icons drawer-icons" role="presentation">help_outline</i> <!-- <span class="drawer-span">GitHub</span> --> </div> <ul class="mdl-menu mdl-menu--top-left mdl-js-menu mdl-js-ripple-effect" for="help"> <a id="source-code-url" href="https://github.com/dhanesana/dhanesana" target="_blank"><li class="mdl-menu__item">Source Code</li></a> </ul> </a> </div> <main class="mdl-layout__content main-area"> <!-- <div class="mdl-grid content"> --> <div ng-view=""></div> <!-- </div> --> </main> </div> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>!function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+          </div> -->
+        </div>
+        <div class="mdl-layout-spacer"></div>
+          <a class="more-info mdl-navigation__link" target="_blank">
+            <div class="link-div">
+              <i id="help" class="material-icons drawer-icons" role="presentation">help_outline</i>
+              <!-- <span class="drawer-span">GitHub</span> -->
+            </div>
+            <ul class="mdl-menu mdl-menu--top-left mdl-js-menu mdl-js-ripple-effect" for="help">
+              <a id="source-code-url" href="https://github.com/dhanesana/dhanesana" target="_blank"><li class="mdl-menu__item">Source Code</li></a>
+            </ul>
+          </a>
+      </div>
+      <main class="mdl-layout__content main-area">
+        <!-- <div class="mdl-grid content"> -->
+          <div ng-view=""></div>
+        <!-- </div> -->
+      </main>
+    </div>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
        (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
        r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
        }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
        ga('create', 'UA-XXXXX-X');
-       ga('send', 'pageview');</script> <!-- jquery --> <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> <script src="scripts/vendor.d5a2aff4.js"></script> <script src="scripts/scripts.78bff22c.js"></script> </body> </html>
+       ga('send', 'pageview');
+    </script>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/material-design-lite/material.min.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/about.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
